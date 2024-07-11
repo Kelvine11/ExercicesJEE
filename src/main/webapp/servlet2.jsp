@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Title</title>
-    <%@include file="base.html"%>
+    <%@include file="WEB-INF/base.html"%>
 </head>
 <body>
 <h1 class="fw-bold">Servlet2 Jsp</h1>

@@ -13,5 +13,6 @@
 <a href="servlet_jsp">Servlet Jsp</a>
 <a href="servlet_jsp2">Servlet Jsp2</a>
 <a href="servlet_jsp3">Servlet Jsp3</a>
+<a href="personnes">Personnes</a>
 </body>
 </html>
