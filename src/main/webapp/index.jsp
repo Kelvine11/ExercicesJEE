@@ -8,8 +8,10 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<a href="servlet_html">Hello Servlet</a>
-<a href="servlet_text">Hello Servlet</a>
-<a href="servlet_jsp">Hello Servlet</a>
+<a href="servlet_html">Servlet HTML</a>
+<a href="servlet_text">Servlet Text</a>
+<a href="servlet_jsp">Servlet Jsp</a>
+<a href="servlet_jsp2">Servlet Jsp2</a>
+<a href="servlet_jsp3">Servlet Jsp3</a>
 </body>
 </html>

@@ -12,7 +12,7 @@
     <%@include file="base.html"%>
 </head>
 <body>
-<h1 class="text-decoration-line-through">Servlet Jsp</h1>
+<h1 class="fst-italic">Servlet3 Jsp</h1>
 
 </body>
 </html>
