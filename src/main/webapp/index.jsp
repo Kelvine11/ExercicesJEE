@@ -15,5 +15,7 @@
 <a href="servlet_jsp3">Servlet Jsp3</a>
 <a href="personnes">Personnes</a>
 <a href="chats">Chats</a>
+<a href="chien/chiens">Chiens</a>
+
 </body>
 </html>
