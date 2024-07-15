@@ -1,4 +1,4 @@
-package org.example.projet.exercice5;
+package org.example.projet.exercice5.util;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;

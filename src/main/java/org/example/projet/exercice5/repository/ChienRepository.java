@@ -1,5 +1,7 @@
-package org.example.projet.exercice5;
+package org.example.projet.exercice5.repository;
 
+import org.example.projet.exercice5.entity.Chien;
+import org.example.projet.exercice5.util.SessionfactorySingleton;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
@@ -45,4 +47,30 @@ public class ChienRepository {
        return chiens;
     }
 
+    public void delete (Chien chien){
+        try{
+            session = sessionFactory.openSession();
+            session.beginTransaction();
+            session.delete(chien);
+            session.getTransaction().commit();
+        }catch (Exception e){
+            session.getTransaction().rollback();
+        }finally {
+            session.close();
+        }
+    }
+
+    public void update(Chien chien){
+
+        try {
+            session = sessionFactory.openSession();
+            session.beginTransaction();
+            session.update(chien);
+            session.getTransaction().commit();
+        } catch (Exception e){
+            session.getTransaction().rollback();
+        } finally {
+            session.close();
+        }
+    }
 }

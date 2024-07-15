@@ -1,4 +1,4 @@
-package org.example.projet.exercice5;
+package org.example.projet.exercice5.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
